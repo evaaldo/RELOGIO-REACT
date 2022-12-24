@@ -13,25 +13,25 @@ const Relogio = () => {
         setHora(dateToday.getHours())
         setMinuto(dateToday.getMinutes())
         setSegundo(dateToday.getSeconds())
-    })
+    }, [dateToday])
 
     return(
         <RelogioEstilizado>
             <div>
                 <span>
-                    {hora}
+                    {hora.toString().padStart(2, '0')}
                 </span>
                 <p>Horas</p>
             </div>
             <div>
                 <span>
-                    {minuto}
+                    {minuto.toString().padStart(2, '0')}
                 </span>
                 <p>Minutos</p>
             </div>
             <div>
                 <span>
-                    {segundo}
+                    {segundo.toString().padStart(2, '0')}
                 </span>
                 <p>Segundos</p>
             </div>
