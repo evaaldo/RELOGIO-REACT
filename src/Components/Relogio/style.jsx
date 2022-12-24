@@ -6,6 +6,9 @@ export const RelogioEstilizado = styled.main`
     display: flex;
     align-items: center;
     gap: 3em;
+    padding: 2em;
+    box-shadow: 0px 5px 15px 1px var(--preto);
+    border-radius: 10px;
 
     div {
         display: flex;
@@ -14,8 +17,8 @@ export const RelogioEstilizado = styled.main`
         align-items: center;
         width: 200px;
         height: 200px;
-        background-color: none;
-        box-shadow: 0px 5px 15px 1px var(--preto);
+        background-color: var(--preto);
+        box-shadow: 0px 5px 10px 1px var(--preto);
     }
 
     span {
