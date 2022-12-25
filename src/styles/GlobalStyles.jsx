@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --preto: #000;
         --branco: #fff;
-        --fundo: #351c88;
+        --fundo: #F15412;
     }
 
     * {

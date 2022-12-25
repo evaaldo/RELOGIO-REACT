@@ -31,4 +31,10 @@ export const RelogioEstilizado = styled.main`
         font-weight: 700;
     }
 
+    @media screen and (max-width: 1024px) {
+
+        flex-direction: column;
+
+    }
+
 `
