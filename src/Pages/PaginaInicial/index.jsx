@@ -1,3 +1,4 @@
+import Localizacao from "../../Components/Localizacao";
 import Relogio from "../../Components/Relogio";
 import GlobalStyle from "../../styles/GlobalStyles";
 
@@ -7,6 +8,7 @@ function PaginaInicial() {
     <div className="App">
       <GlobalStyle/>
       <Relogio/>
+      <Localizacao/>
     </div>
   );
 }
