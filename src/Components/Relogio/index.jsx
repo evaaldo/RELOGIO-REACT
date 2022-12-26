@@ -8,12 +8,12 @@ const Relogio = () => {
     const [minuto, setMinuto] = useState(dateToday.getMinutes())
     const [segundo, setSegundo] = useState(dateToday.getSeconds())
 
-    // useEffect(function() {
-    //     setDateToday(new Date())
-    //     setHora(dateToday.getHours())
-    //     setMinuto(dateToday.getMinutes())
-    //     setSegundo(dateToday.getSeconds())
-    // }, [dateToday])
+    useEffect(function() {
+        setDateToday(new Date())
+        setHora(dateToday.getHours())
+        setMinuto(dateToday.getMinutes())
+        setSegundo(dateToday.getSeconds())
+    }, [dateToday])
 
     return(
         <RelogioEstilizado>

@@ -1,3 +1,4 @@
+import Redes from "../../Components/Redes";
 import Relogio from "../../Components/Relogio";
 import Titulo from "../../Components/Titulo";
 import GlobalStyle from "../../styles/GlobalStyles";
@@ -9,6 +10,7 @@ function PaginaInicial() {
       <GlobalStyle/>
       <Titulo/>
       <Relogio/>
+      <Redes/>
     </div>
   );
 }
