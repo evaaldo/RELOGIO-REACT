@@ -1,4 +1,4 @@
-<h1>Aniversário brastemp</h1>
+<h1>Relógio</h1>
 <h3>Finished - Finalizado</h3>
 
 <p><strong>✦ Resumo:</strong> Criação de um relógio em react.</p>
